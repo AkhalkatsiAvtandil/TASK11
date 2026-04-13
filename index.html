@@ -9,22 +9,28 @@
   </head>
   <body>
     <header>
-      <a href="index.html">
-        <img src="assets/img/logo.png" alt="კომპანიის ლოგო" />
-      </a>
-      <nav>
-        <ul>
-          <li><a href="#">მთავარი</a></li>
-          <li><a href="#">ჩვენ შესახებ</a></li>
-          <li><a href="#">სერვისები</a></li>
-          <li><a href="#">პროექტები</a></li>
-          <li><a href="#">პარტნიორები</a></li>
-        </ul>
-      </nav>
-      <button type="button">კონტაქტი</button>
+      <div class="container">
+        <a href="index.html">
+          <img src="assets/img/logo.png" alt="კომპანიის ლოგო" />
+        </a>
+        <nav>
+          <ul>
+            <li><a href="#">მთავარი</a></li>
+            <li><a href="#">ჩვენ შესახებ</a></li>
+            <li><a href="#">სერვისები</a></li>
+            <li><a href="#">პროექტები</a></li>
+            <li><a href="#">პარტნიორები</a></li>
+          </ul>
+        </nav>
+        <button type="button">კონტაქტი</button>
+      </div>
     </header>
-    <main>
-      <img src="assets/img/1.png" alt="არქიტექტურული კომპოზიცია" />
+    <main class="containermain">
+      <img
+        class="relativeimg"
+        src="assets/img/1.png"
+        alt="არქიტექტურული კომპოზიცია"
+      />
       <h1>რატომ ვიყენებთ მას და საიდან მოდის ეს ტექსტი?</h1>
       <img src="assets/img/2.png" alt="არქიტექტურული კომპოზიცია" />
       <img src="assets/img/3.png" alt="არქიტექტურული კომპოზიცია" />
@@ -75,72 +81,74 @@
       <button type="button">დამატებითი ინფორმაცია</button>
     </main>
     <footer>
-      <h2>კონტაქტი</h2>
-      <div>
-        <p>
-          Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი
-          სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ
-          დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
-        </p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.441224860996!2d44.79688600000001!3d41.732575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472b82b6f835d%3A0x13d9fb6a0fac64e2!2sM%2FS%20Nadzaladevi!5e0!3m2!1sen!2sge!4v1776076101400!5m2!1sen!2sge"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+      <div class="container">
+        <h2>კონტაქტი</h2>
+        <div>
+          <p>
+            Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია.
+            იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა
+            ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+          </p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.441224860996!2d44.79688600000001!3d41.732575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472b82b6f835d%3A0x13d9fb6a0fac64e2!2sM%2FS%20Nadzaladevi!5e0!3m2!1sen!2sge!4v1776076101400!5m2!1sen!2sge"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
 
-        <a href="#">
-          <img src="assets/img/tel.png" alt="ტელეფონის ლოგო" />+995 555 444
-          333</a
-        >
-        <a href="#"
-          ><img
-            src="assets/img/letter.png"
-            alt="კონვერტის ლოგო მეილისთვის"
-          />example@gmail.com</a
-        >
-      </div>
-      <form action="#">
-        <input
-          type="text"
-          name="user_name"
-          placeholder="სახელი, გვარი"
-          id="name,surename"
-          required
-        />
-        <input
-          type="email"
-          name="user_email"
-          placeholder="ელ.ფოსტა"
-          id="email"
-          required
-        />
-        <input
-          type="number"
-          name="user_phone"
-          placeholder="ტელეფონის ნომერი"
-          id="phone-number"
-          required
-        />
-        <textarea
-          name="message"
-          id="message"
-          placeholder="შეტყობინება"
-          rows="4"
-          cols="30"
-        >
-        </textarea>
-      </form>
-      <span><button type="submit">გაგზავნა</button></span>
-      <div>
-        <a href="#" target="_blank">ყველა უფლება დაცულია</a>
-        <a href="#">დამზადებულია ,,გულით,,</a>
-        <a href="#"
-          ><img src="assets/img/smartweb.png" alt="შ.პ.ს სმარტვებ-ის ლოგო"
-        /></a>
+          <a href="#">
+            <img src="assets/img/tel.png" alt="ტელეფონის ლოგო" />+995 555 444
+            333</a
+          >
+          <a href="#"
+            ><img
+              src="assets/img/letter.png"
+              alt="კონვერტის ლოგო მეილისთვის"
+            />example@gmail.com</a
+          >
+        </div>
+        <form action="#">
+          <input
+            type="text"
+            name="user_name"
+            placeholder="სახელი, გვარი"
+            id="name,surename"
+            required
+          />
+          <input
+            type="email"
+            name="user_email"
+            placeholder="ელ.ფოსტა"
+            id="email"
+            required
+          />
+          <input
+            type="number"
+            name="user_phone"
+            placeholder="ტელეფონის ნომერი"
+            id="phone-number"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="შეტყობინება"
+            rows="4"
+            cols="30"
+          >
+          </textarea>
+        </form>
+        <span><button type="submit">გაგზავნა</button></span>
+        <div>
+          <a href="#" target="_blank">ყველა უფლება დაცულია</a>
+          <a href="#">დამზადებულია ,,გულით,,</a>
+          <a href="#"
+            ><img src="assets/img/smartweb.png" alt="შ.პ.ს სმარტვებ-ის ლოგო"
+          /></a>
+        </div>
       </div>
     </footer>
   </body>
