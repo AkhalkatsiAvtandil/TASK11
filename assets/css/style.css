@@ -56,6 +56,7 @@ button {
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .containerfooter {
   max-width: 1440px;
@@ -182,6 +183,7 @@ ul {
 .parrentfooterpmap {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 form {
   display: flex;
@@ -206,12 +208,15 @@ textarea {
 .footerbuttonflex {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 .footerbutton {
+  margin-top: 40px;
   background-color: #ffffff;
   border-radius: 28px;
   height: 55px;
   width: 151px;
+  font-size: 16px;
 }
 .footerpmap p {
   max-width: 463px;
@@ -225,6 +230,7 @@ textarea {
   justify-content: space-between;
   align-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 .contacus img {
   background-color: #ffffff;
@@ -242,4 +248,119 @@ textarea {
   text-align: center;
   align-items: center;
   margin-right: 20px;
+}
+form :nth-child(5) {
+  display: none;
+}
+/*  ^______^ */
+
+/* 1024 */
+
+@media (width <= 1024px) {
+  header {
+    border-radius: 0 0 20px 20px;
+  }
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .navparrent {
+    display: none;
+  }
+  .consectetur,
+  .ciceron,
+  .pasage {
+    display: none;
+  }
+  /* form {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerpmap {
+    display: flex;
+    flex-direction: column-reverse;
+  } */
+  h2 {
+    text-align: center;
+  }
+  .parrentfooterpmap {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .footerpmap p {
+    display: none;
+  }
+  .footerbuttonflex {
+    justify-content: center;
+    display: none;
+  }
+  form :nth-child(5) {
+    display: flex;
+    align-self: center;
+    margin: 20px 40px 20px 40px;
+  }
+  .infoltd {
+    flex-direction: column-reverse;
+    row-gap: 35px;
+    column-gap: 35px;
+  }
+}
+
+/* 1440 */
+@media (width <= 1440px) {
+  header {
+    border-radius: 0 0 20px 20px;
+  }
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+  }
+  .navparrent {
+    display: none;
+  }
+  .consectetur,
+  .ciceron,
+  .pasage {
+    display: none;
+  }
+  /* form {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerpmap {
+    display: flex;
+    flex-direction: column-reverse;
+  } */
+  h2 {
+    text-align: center;
+  }
+  .parrentfooterpmap {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .footerpmap p {
+    display: none;
+  }
+  .footerbuttonflex {
+    justify-content: center;
+    display: none;
+  }
+  form :nth-child(5) {
+    display: flex;
+    align-self: center;
+    margin: 20px 40px 20px 40px;
+  }
+  .infoltd {
+    flex-direction: column-reverse;
+    row-gap: 35px;
+    column-gap: 35px;
+  }
 }
