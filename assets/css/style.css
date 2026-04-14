@@ -252,6 +252,9 @@ textarea {
 form :nth-child(5) {
   display: none;
 }
+.navicon {
+  display: none;
+}
 /*  ^______^ */
 
 /* 1024 */
@@ -308,6 +311,15 @@ form :nth-child(5) {
     row-gap: 35px;
     column-gap: 35px;
   }
+  .navicon {
+    display: inline-block;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    /* left: 512px; */
+    z-index: 1000;
+    padding: 20px auto;
+  }
 }
 
 /* 1440 */
@@ -363,4 +375,17 @@ form :nth-child(5) {
     row-gap: 35px;
     column-gap: 35px;
   }
+  .navicon {
+    display: inline-block;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    /* left: 790px; */
+    z-index: 1000;
+    padding: 20px auto;
+  }
 }
+
+/* position: fixed;
+    z-index: 1000;
+  } */
