@@ -74,6 +74,11 @@ h1 {
   text-transform: uppercase;
   color: #171717;
 }
+h2 {
+  padding-top: 275px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
 p,
 button {
   font-family: "Arial GEO Bold";
@@ -169,4 +174,72 @@ ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.footerpmap {
+  display: flex;
+  flex-direction: column;
+}
+.parrentfooterpmap {
+  display: flex;
+  justify-content: space-between;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-top: 50px;
+  height: 60px;
+  background-color: #0020f4;
+  border-bottom: 2px solid #ffffff;
+}
+textarea {
+  margin-top: 50px;
+  height: 60px;
+  background-color: #0020f4;
+  border-bottom: 2px solid #ffffff;
+}
+::placeholder {
+  text-align: left;
+  color: #ffffff;
+}
+.footerbuttonflex {
+  display: flex;
+  justify-content: flex-end;
+}
+.footerbutton {
+  background-color: #ffffff;
+  border-radius: 28px;
+  height: 55px;
+  width: 151px;
+}
+.footerpmap p {
+  max-width: 463px;
+  margin-bottom: 58px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.contacus {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+}
+.contacus img {
+  background-color: #ffffff;
+  border-radius: 40px;
+  align-items: center;
+}
+.infoltd {
+  margin-top: 200px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ltdspan a {
+  text-align: center;
+  align-items: center;
+  margin-right: 20px;
 }
